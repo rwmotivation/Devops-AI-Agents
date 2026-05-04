@@ -2,5 +2,24 @@
   "name": "DevOps AI Agent",
   "description": "AI agent for DevOps automation and CI/CD guidance",
   "version": "1.0.0",
-  "author": "rwmotivation"
+  "author": "rwmotivation",
+  "url": "https://github.com/rwmotivation/Devops-AI-Agents",
+  "capabilities": [
+    "CI/CD pipeline analysis",
+    "Infrastructure as Code review",
+    "Cloud architecture recommendations",
+    "Kubernetes troubleshooting"
+  ],
+  "skills": [
+    {
+      "name": "DevOps Advisory",
+      "description": "Provides guidance and best practices for DevOps workflows"
+    },
+    {
+      "name": "CI/CD Optimization",
+      "description": "Analyzes and improves build and deployment pipelines"
+    }
+  ],
+  "defaultInputModes": ["text"],
+  "defaultOutputModes": ["text"]
 }
