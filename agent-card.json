@@ -1,25 +1,37 @@
 {
   "name": "DevOps AI Agent",
-  "description": "AI agent for DevOps automation and CI/CD guidance",
+  "description": "An AI agent that assists with DevOps automation, CI/CD pipelines, and cloud infrastructure guidance.",
   "version": "1.0.0",
   "author": "rwmotivation",
   "url": "https://github.com/rwmotivation/Devops-AI-Agents",
 
-  "capabilities": [
-    "CI/CD pipeline analysis",
-    "Infrastructure as Code review",
-    "Cloud architecture recommendations",
-    "Kubernetes troubleshooting"
-  ],
+  "capabilities": {
+    "ci_cd": {
+      "description": "Analyze, troubleshoot, and optimize CI/CD pipelines"
+    },
+    "infrastructure_as_code": {
+      "description": "Review and recommend improvements for Terraform and other IaC tools"
+    },
+    "cloud_architecture": {
+      "description": "Provide recommendations for scalable and secure cloud architectures"
+    },
+    "kubernetes": {
+      "description": "Assist with Kubernetes deployments and troubleshooting"
+    }
+  },
 
   "skills": [
     {
+      "id": "devops-advisory",
       "name": "DevOps Advisory",
-      "description": "Provides DevOps best practices and architectural guidance"
+      "description": "Provides DevOps best practices, workflow guidance, and architecture reviews",
+      "tags": ["devops", "architecture", "best-practices"]
     },
     {
+      "id": "cicd-optimization",
       "name": "CI/CD Optimization",
-      "description": "Analyzes and optimizes build and deployment pipelines"
+      "description": "Analyzes and improves CI/CD pipelines for speed and reliability",
+      "tags": ["cicd", "pipelines", "automation"]
     }
   ],
 
